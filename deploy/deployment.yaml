@@ -48,11 +48,11 @@ spec:
                 configMapKeyRef:
                   name: ks26-app-config
                   key: APP_OWNER
-            - name: IMAGE_TAG
+            - name: group1-9b6de92
               valueFrom:
                 configMapKeyRef:
                   name: ks26-app-config
-                  key: IMAGE_TAG
+                  key: group1-9b6de92
             - name: INFERENCE_URL
               valueFrom:
                 configMapKeyRef:
